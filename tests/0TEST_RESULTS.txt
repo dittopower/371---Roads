@@ -1,0 +1,266 @@
+Getting exe...
+        1 file(s) copied.
+---------------------------------------------
+Complete Square
+---------------------------------------------
+City  0 co-ordinates : {0,0}
+City  1 co-ordinates : {0,10}
+City  2 co-ordinates : {10,0}
+City  3 co-ordinates : {10,10}
+
+Edge Weights
+============
+      0     10     10  14.14
+     10      0  14.14     10
+     10  14.14      0     10
+  14.14     10     10      0
+
+
+Shortest Paths
+==============
+Distance from  0 to  1 =     10 traveling via 0 1 
+Distance from  0 to  2 =     10 traveling via 0 2 
+Distance from  0 to  3 =  14.14 traveling via 0 3 
+
+MST Weight = 30.00
+===================
+
+Shortest Paths on MST
+=====================
+NYI
+
+---------------------------------------------
+Incomplete Square
+---------------------------------------------
+City  0 co-ordinates : {0,0}
+City  1 co-ordinates : {0,10}
+City  2 co-ordinates : {10,0}
+City  3 co-ordinates : {10,10}
+
+Edge Weights
+============
+      0     10     10  14.14
+     10      0      -      -
+     10      -      0      -
+  14.14      -      -      0
+
+
+Shortest Paths
+==============
+Distance from  0 to  1 =     10 traveling via 0 1 
+Distance from  0 to  2 =     10 traveling via 0 2 
+Distance from  0 to  3 =  14.14 traveling via 0 3 
+
+MST Weight = 34.14
+===================
+
+Shortest Paths on MST
+=====================
+NYI
+
+---------------------------------------------
+Line
+---------------------------------------------
+City  0 co-ordinates : {0,0}
+City  1 co-ordinates : {10,10}
+City  2 co-ordinates : {20,20}
+City  3 co-ordinates : {30,30}
+
+Edge Weights
+============
+      0  14.14      -      -
+  14.14      0  14.14      -
+      -  14.14      0  14.14
+      -      -  14.14      0
+
+
+Shortest Paths
+==============
+Distance from  0 to  1 =  14.14 traveling via 0 1 
+Distance from  0 to  2 =  28.28 traveling via 0 1 2 
+Distance from  0 to  3 =  42.43 traveling via 0 1 2 3 
+
+MST Weight = 42.43
+===================
+
+Shortest Paths on MST
+=====================
+NYI
+
+---------------------------------------------
+Shape
+---------------------------------------------
+City  0 co-ordinates : {0,0}
+City  1 co-ordinates : {2,0}
+City  2 co-ordinates : {4,0}
+City  3 co-ordinates : {6,0}
+City  4 co-ordinates : {2,1}
+City  5 co-ordinates : {4,1}
+City  6 co-ordinates : {0,2}
+City  7 co-ordinates : {2,2}
+City  8 co-ordinates : {4,2}
+City  9 co-ordinates : {6,2}
+
+Edge Weights
+============
+      0      2      -      -      -      -      -      -      -      -
+      2      0      -      -      1      -      -      -      -      -
+      -      -      0      2      -      1      -      -      -      -
+      -      -      2      0      -      -      -      -      -      -
+      -      1      -      -      0      2      -      1      -      -
+      -      -      1      -      2      0      -      -      1      -
+      -      -      -      -      -      -      0      2      -      -
+      -      -      -      -      1      -      2      0      -      -
+      -      -      -      -      -      1      -      -      0      2
+      -      -      -      -      -      -      -      -      2      0
+
+
+Shortest Paths
+==============
+Distance from  0 to  1 =      2 traveling via 0 1 
+Distance from  0 to  2 =      6 traveling via 0 1 4 5 2 
+Distance from  0 to  3 =      8 traveling via 0 1 4 5 2 3 
+Distance from  0 to  4 =      3 traveling via 0 1 4 
+Distance from  0 to  5 =      5 traveling via 0 1 4 5 
+Distance from  0 to  6 =      6 traveling via 0 1 4 7 6 
+Distance from  0 to  7 =      4 traveling via 0 1 4 7 
+Distance from  0 to  8 =      6 traveling via 0 1 4 5 8 
+Distance from  0 to  9 =      8 traveling via 0 1 4 5 8 9 
+
+MST Weight = 14.00
+===================
+
+Shortest Paths on MST
+=====================
+NYI
+
+---------------------------------------------
+Five Random Points
+---------------------------------------------
+City  0 co-ordinates : {45,14}
+City  1 co-ordinates : {23,54}
+City  2 co-ordinates : {6,23}
+City  3 co-ordinates : {78,64}
+City  4 co-ordinates : {25,29}
+
+Edge Weights
+============
+      0      -      -  59.91      -
+      -      0      -      -  25.08
+      -      -      0      -  19.92
+  59.91      -      -      0  63.51
+      -  25.08  19.92  63.51      0
+
+
+Shortest Paths
+==============
+Distance from  0 to  1 =  148.5 traveling via 0 3 4 1 
+Distance from  0 to  2 = 143.35 traveling via 0 3 4 2 
+Distance from  0 to  3 =  59.91 traveling via 0 3 
+Distance from  0 to  4 = 123.42 traveling via 0 3 4 
+
+MST Weight = 168.43
+===================
+
+Shortest Paths on MST
+=====================
+NYI
+
+---------------------------------------------
+Ten Random Points
+---------------------------------------------
+City  0 co-ordinates : {92,8}
+City  1 co-ordinates : {80,23}
+City  2 co-ordinates : {1,52}
+City  3 co-ordinates : {48,41}
+City  4 co-ordinates : {91,91}
+City  5 co-ordinates : {93,100}
+City  6 co-ordinates : {38,89}
+City  7 co-ordinates : {59,77}
+City  8 co-ordinates : {6,2}
+City  9 co-ordinates : {92,54}
+
+Edge Weights
+============
+      0      - 101.08      -  83.01      -  97.35  76.49      -      -
+      -      0  84.15  36.72  68.88  78.09  78.23      -      -      -
+ 101.08  84.15      0      -  98.09      -      -      -      -  91.02
+      -  36.72      -      0  65.95      -      -      -  57.31      -
+  83.01  68.88  98.09  65.95      0      -  53.04  34.93      -  37.01
+      -  78.09      -      -      -      0  56.09  41.05      -  46.01
+  97.35  78.23      -      -  53.04  56.09      0      -      -  64.35
+  76.49      -      -      -  34.93  41.05      -      0  91.84      -
+      -      -      -  57.31      -      -      -  91.84      0  100.5
+      -      -  91.02      -  37.01  46.01  64.35      -  100.5      0
+
+
+Shortest Paths
+==============
+Distance from  0 to  1 = 151.89 traveling via 0 4 1 
+Distance from  0 to  2 = 101.08 traveling via 0 2 
+Distance from  0 to  3 = 148.95 traveling via 0 4 3 
+Distance from  0 to  4 =  83.01 traveling via 0 4 
+Distance from  0 to  5 = 117.53 traveling via 0 7 5 
+Distance from  0 to  6 =  97.35 traveling via 0 6 
+Distance from  0 to  7 =  76.49 traveling via 0 7 
+Distance from  0 to  8 = 168.32 traveling via 0 7 8 
+Distance from  0 to  9 = 120.02 traveling via 0 4 9 
+
+MST Weight = 486.65
+===================
+
+Shortest Paths on MST
+=====================
+NYI
+
+---------------------------------------------
+Ten Points (Disconnected Graph)
+---------------------------------------------
+City  0 co-ordinates : {94,20}
+City  1 co-ordinates : {64,40}
+City  2 co-ordinates : {9,97}
+City  3 co-ordinates : {23,96}
+City  4 co-ordinates : {30,94}
+City  5 co-ordinates : {90,30}
+City  6 co-ordinates : {10,52}
+City  7 co-ordinates : {68,94}
+City  8 co-ordinates : {49,79}
+City  9 co-ordinates : {71,94}
+
+Edge Weights
+============
+      0      -      -      -      -      -      -  78.43      -      -
+      -      0      -   69.4      -      -  55.32      -  41.79      -
+      -      -      0      -      -      -      -      -      -      -
+      -   69.4      -      0      -      -  45.88  45.04      -      -
+      -      -      -      -      0  87.73      -      -  24.21      -
+      -      -      -      -  87.73      0      -  67.68      -      -
+      -  55.32      -  45.88      -      -      0      -      -      -
+  78.43      -      -  45.04      -  67.68      -      0      -      -
+      -  41.79      -      -  24.21      -      -      -      0      -
+      -      -      -      -      -      -      -      -      -      0
+
+
+Shortest Paths
+==============
+Distance from  0 to  1 = 192.88 traveling via 0 7 3 1 
+NO PATH  from  0 to  2
+Distance from  0 to  3 = 123.48 traveling via 0 7 3 
+Distance from  0 to  4 = 233.84 traveling via 0 7 5 4 
+Distance from  0 to  5 = 146.11 traveling via 0 7 5 
+Distance from  0 to  6 = 169.36 traveling via 0 7 3 6 
+Distance from  0 to  7 =  78.43 traveling via 0 7 
+Distance from  0 to  8 = 234.67 traveling via 0 7 3 1 8 
+NO PATH  from  0 to  9
+
+MST Weight = 358.34
+===================
+
+Shortest Paths on MST
+=====================
+NYI
+
+---------------------------------------------
+Tests Finished
+---------------------------------------------
+Press any key to continue . . . 
